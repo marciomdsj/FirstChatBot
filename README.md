@@ -58,6 +58,10 @@ FirstChatBot/
 
 Veja a pasta `results/` para comparação entre saídas usando prompts diferentes.
 
+## Ideias de Melhorias
+
+- Colocar a padronização dos relatórios da empresa no prompt do avaliador, para que seja testado eficientemente todos os relatórios gerados, com critérios específicos.
+
 ## Observações
 
 - O uso de LLaMA3 localmente exige máquina com bom desempenho. A CPU pode atingir 100% durante a geração.
