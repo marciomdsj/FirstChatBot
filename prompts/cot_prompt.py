@@ -1,6 +1,6 @@
 import requests
 
-def gerar_relatorio(respostas: dict) -> str:
+def gerar_relatorio_cot(respostas: dict) -> str:
     texto_base = "\n".join([f"{k}: {v}" for k, v in respostas.items()])
     
     # Define a delimiter
@@ -40,7 +40,7 @@ def gerar_relatorio(respostas: dict) -> str:
         },
         {"role": "user", "content": f"""
 Você é um assistente que gera relatórios técnicos de atividades de desenvolvedores. 
-Com base nas informações abaixo, **gere apenas o relatório final, em parágrafo único, pronto para ser usado como relatório técnico**. 
+Com base nas informações abaixo, **gere apenas o relatório final, em parágrafo único, com linguagem impessoal e contínua, pronto para ser usado como relatório técnico**. 
 Não explique como chegou nele, apenas escreva o relatório final, claro, técnico e direto:
 
 {texto_base}

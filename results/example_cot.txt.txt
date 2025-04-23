@@ -1,4 +1,0 @@
-Relatório Técnico Final: O desenvolvimento de um chatbot pequeno para geração de relatórios relacionados ao desenvolvimento dos desenvolvedores foi concluído com sucesso.
-Embora tenha sido necessário superar desafios, como a limitação da licença da API da openAI e o estudo inicial para programar, o resultado final demonstrou bons resultados primários. 
-Foi-se utilizado o site DeepLearning;IA, chatGPT, Claude.AI e alterações pessoais em conjunto com o código Python para implementar o chatbot. 
-A conclusão de estudos básicos relacionados a IA também foi um passo importante para alcançar os objetivos do projeto.

@@ -1,0 +1,9 @@
+Desenvolvi um chatbot pequeno, que gera para mim um relatório relacionado ao desenvolvimentos dos desenvolvedores. Além disso, estudei conteúdos relacionados a manipulação de IA pelo site DeepLearning.IA
+
+Sim, a licença da API da openAI está limitada, tive que usar o Llama3 para substituir. Além disso, ter que estudar para então programar também é um desafio.
+
+Desenvolvimento inicial de um chatbot  auxiliador, que cria textos simples para relatórios de desenvolvimento. E também conclusão de estudos básicos relacionados a IA
+
+Código foi feito em conjunto com o site DeepLearning;IA, chatGPT, Claude.AI e alterações pessoais. Após estudar foi possível alguns bons resultados primários.
+
+Python

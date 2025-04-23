@@ -1,0 +1,97 @@
+---------------------------------------------PRIMEIRO PROMPT---------------------------------------------
+--> Prompt usado: mensagens = [
+        {"role":"system", "content":"Você é um gerador de textos em formato de relatório técnico."},
+        {"role":"user", "content":f"""
+Gere um texto em formato de relatório, enriquecendo mais o texto, contendo os pontos principais do texto base a seguir:
+{texto_base}
+"""}
+    ]
+
+
+--- Relatório Gerado ---
+
+Relatório Técnico: Desenvolvimento de um Chatbot para Gerar Relatórios de Desenvolvimento
+
+Resumo:
+Neste relatório, é apresentado o desenvolvimento de um chatbot pequeno que gera relatórios relacionados ao desenvolvimento dos desenvolvedores. Além disso, são relatadas as ações realizadas para estudar conteúdos relacionados à manipulação de Inteligência Artificial (IA) pelo site DeepLearning.IA.
+
+Desenvolvimentos:
+Foi desenvolvido um chatbot auxiliador que cria textos simples para relatórios de desenvolvimento. O chatbot foi construído utilizando a linguagem Python e combinações de APIs, incluindo o Llama3 da OpenAI. A escolha do Llama3 se deve à limitação na licença da API da OpenAI.
+
+Desafios:
+Durante o processo de desenvolvimento, foram encontrados alguns desafios significativos. Primeiramente, a limitação na licença da API da OpenAI exigiu a substituição pela API do Llama3. Além disso, estudar e programar ao mesmo tempo 
+foi um grande desafio.
+
+Conclusões:
+As tarefas concluídas incluem o desenvolvimento inicial de um chatbot auxiliador e a conclusão de estudos básicos relacionados à IA. O resultado primário foi a capacidade do chatbot em gerar textos simples para relatórios de desenvolvimento. A combinação dos conhecimentos adquiridos no site DeepLearning.IA, com o apoio da API do Llama3, permitiu um bom resultado.
+
+Metodologia:
+O código do chatbot foi escrito em conjunto com o site DeepLearning;IA, chatGPT, Claude.AI e alterações pessoais. Após estudar, foi possível alcançar alguns resultados primários.
+
+Linguagem Utilizada:
+A linguagem Python foi utilizada para construir o chatbot.
+
+Considerações Finais:
+O desenvolvimento do chatbot auxiliador demonstrou a possibilidade de criar ferramentas que podem ser úteis para gerar relatórios e ajudar os desenvolvedores em sua rotina diária. Além disso, o estudo sobre a manipulação de IA pelo site DeepLearning.IA permitiu uma maior compreensão dos conceitos fundamentais da área e pode contribuir para futuros projetos.
+
+Referências:
+
+* Site DeepLearning.IA
+* OpenAI Llama3 API
+* Python Programming Language
+---------------------------------------------FIM DO PRIMEIRO PROMPT---------------------------------------------
+
+---------------------------------------------SEGUNDO PROMPT---------------------------------------------
+prompt usado: mensagens = [
+        {"role":"system", "content":"Você é um gerador de textos em formato de relatório técnico."},
+        {"role":"user", "content":f"""
+Gere um texto em formato de relatório, enriquecendo mais o texto.
+Cuide para fazer um texto com parágrafo único e com linguagem contínua e impessoal.         
+Faça o texto embasando sobre os pontos principais do texto base a seguir:
+{texto_base}
+"""}
+    ]
+
+--- Relatório Gerado ---
+
+RELATÓRIO DE DESVOLVIMENTO DE CHATBOT E ESTUDOS SOBRE IA
+
+Nesse relatório, é apresentado o desenvolvimento de um chatbot pequeno que gera relatórios sobre os desenvolvimentos dos desenvolvedores. Além disso, foram estudados conteúdos relacionados à manipulação de Intelligência Artificial (IA) pelo site DeepLearning.IA.
+
+Durante o processo de desenvolvimento, foi necessário superar alguns desafios. A principal dificuldade enfrentada foi a limitação da licença da API da openAI, que obrigou a substituição por Llama3. Além disso, estudar e programar simultaneamente também representou um desafio.
+
+Apesar dos obstáculos, as tarefas foram concluídas com sucesso. Foi desenvolvido o chatbot auxiliador, capaz de criar textos simples para relatórios de desenvolvimento. Além disso, foi concluído o estudo básico sobre IA, permitindo um melhor entendimento da manipulação de inteligência artificial.
+
+O código foi escrito em conjunto com os sites DeepLearning.IA, chatGPT, Claude.AI e alterações pessoais. Após estudar e aprender com os conteúdos, foi possível alcançar resultados primários satisfatórios.
+
+Nesse relatório, é utilizada a linguagem de programação Python para o desenvolvimento do chatbot e estudos sobre IA.
+
+---------------------------------------------FIM DO SEGUNDO PROMPT---------------------------------------------
+
+
+---------------------------------------------TERCEIRO PROMPT---------------------------------------------
+
+mensagens = [
+        {"role":"system", "content":"Você é um gerador de textos em formato de relatório técnico."},
+        {"role":"user", "content":f"""
+Gere um texto em formato de relatório, enriquecendo mais o texto.
+Cuide para fazer um texto com parágrafo único, juntando todos os pontos nesse mesmo parágrafo e com linguagem contínua e impessoal.         
+Faça o texto embasando sobre os pontos principais do texto base a seguir:
+{texto_base}
+"""}
+    ]
+
+    --- Relatório Gerado ---
+
+Relatório Técnico: Desenvolvimento de Chatbot e Estudos sobre Manipulação de IA
+
+Neste relatório, é apresentado o desenvolvimento de um chatbot pequeno que gera relatórios relacionados ao desenvolvimento dos desenvolvedores. Além disso, foram estudados conteúdos relacionados à manipulação de Intelligença Artificial (IA) pelo site DeepLearning.IA. Durante o processo, enfrentamos desafios, concluímos tarefas e utilizamos linguagem Python para implementar o chatbot.
+
+O desenvolvimento do chatbot teve como objetivo criar um auxiliador que gera textos simples para relatórios de desenvolvimento. Para isso, foi necessário estudar conteúdos básicos sobre IA e manipulação de dados. O estudo permitiu uma compreensão mais aprofundada sobre as técnicas utilizadas em aprendizado automático e manipulação de dados. A criação do chatbot foi possível graças à colaboração com sites como DeepLearning.IA, chatGPT e Claude.AI, bem como alterações pessoais.
+
+Apesar dos desafios encontrados, o desenvolvimento do chatbot teve bons resultados primários. A limitação da licença da API da openAI, por exemplo, forçou a utilização do Llama3 para substituir. Além disso, ter que estudar e programar também foi um desafio, mas permitiu uma compreensão mais aprofundada sobre as técnicas utilizadas em aprendizado automático.
+
+Em resumo, o desenvolvimento do chatbot e os estudos realizados demonstram a capacidade de criar soluções inovadoras utilizando linguagem Python. O sucesso obtido é um resultado da combinação de conhecimento técnico e habilidades de 
+programação.
+
+---------------------------------------------FIM DO TERCEIRO PROMPT---------------------------------------------

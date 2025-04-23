@@ -1,0 +1,33 @@
+Relatório Técnico Final: O desenvolvimento de um chatbot pequeno para geração de relatórios relacionados ao desenvolvimento dos desenvolvedores foi concluído com sucesso.
+Embora tenha sido necessário superar desafios, como a limitação da licença da API da openAI e o estudo inicial para programar, o resultado final demonstrou bons resultados primários. 
+Foi-se utilizado o site DeepLearning;IA, chatGPT, Claude.AI e alterações pessoais em conjunto com o código Python para implementar o chatbot. 
+A conclusão de estudos básicos relacionados a IA também foi um passo importante para alcançar os objetivos do projeto.
+
+
+##############################################################################################################################################################################
+
+mensagens = [
+        {
+            "role": "system",
+            "content": system_prompt
+        },
+        {"role": "user", "content": f"""
+Você é um assistente que gera relatórios técnicos de atividades de desenvolvedores. 
+Com base nas informações abaixo, **gere apenas o relatório final, em parágrafo único, com linguagem impessoal e contínua, pronto para ser usado como relatório técnico**. 
+Não explique como chegou nele, apenas escreva o relatório final, claro, técnico e direto:
+
+{texto_base}
+"""}
+
+    ]
+
+
+--- Relatório Gerado ---
+
+Relatório Técnico Final:####
+
+Hoje, desenvolvi um chatbot pequeno que gera relatórios sobre o desempenho dos desenvolvedores, além de ter estudado conteúdos relacionados à manipulação de inteligência artificial (IA)
+pelo site DeepLearning.IA. Embora tenha enfrentado alguns desafios, como a limitação da licença da API da openAI que me obrigou a utilizar o Llama3 para substituir, e o estudo necessário 
+para programar, consegui concluir o desenvolvimento inicial de um chatbot auxiliador que cria textos simples para relatórios de desenvolvimento. Além disso, finalizei os estudos básicos 
+relacionados à IA. O código foi feito em conjunto com o site DeepLearning;IA, chatGPT, Claude.AI e alterações pessoais, após estudar, pude alcançar alguns bons resultados primários. 
+A linguagem utilizada foi Python.
