@@ -28,14 +28,11 @@ ollama run llama3:8b
 python main.py
 ```
 
-4. Para testar diferentes tipos de prompts, altere o import no `main.py`:
-```python
-from prompts.cot_prompt import gerar_relatorio
-# ou
-from prompts.valoration_prompt import gerar_relatorio
-# ou
-from prompts.simples import gerar_relatorio
-```
+4. Escolha uma das opções, sendo:
+- Simples
+- Chain-of-Thought
+- Avaliação técnica com rubricas do Simples
+- Avaliação técnica com rubricas do Chain-of-Thought
 
 ## Estrutura do Projeto
 
